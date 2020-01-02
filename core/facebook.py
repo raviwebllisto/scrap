@@ -18,8 +18,8 @@ def post(request):
     browser.get('https://www.facebook.com/') 
       
     # Enter your user name and password here. 
-    username = "test.webllisto@gmail.com"
-    password = "ravi72842"
+    username = "username"
+    password = "password"
      
     a = browser.find_element_by_id('email')  
     a.send_keys(username) 
